@@ -1,0 +1,65 @@
+.payment {
+    background-color: white;
+}
+
+.payment__container>h1 {
+    text-align: center;
+    padding: 10px;
+    font-weight: 400;
+    background-color: rgb(234, 237, 237);
+    border-bottom: 1px solid lightgray;
+}
+
+.payment__container>h1 a:act {
+    text-decoration: none;
+}
+
+.payment__section {
+    display: flex;
+    padding: 20px;
+    margin: 0 20px;
+    border-bottom: 1px solid lightgray;
+    background-color: rgb(252, 233, 233);
+}
+
+.payment__title {
+    flex: 0.2;
+}
+
+.payment__title,
+.payment__address,
+.payment__details
+ {
+    flex: 0.8;
+}
+
+.payment__details>form{
+    max-width: 400px;
+}
+.payment__details >h3{
+    padding-bottom: 20px;
+    color: #161104
+}
+.payment__details>form>div>button{
+    width: 100%;
+    color: black; 
+    font-weight: bolder;
+    padding: 10px;
+    position:relative;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s; 
+    background: #F3CE5E;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #161104, #dda10b, #c610c6;
+    cursor: pointer;
+  }
+  .payment__details>form>div> button:hover {
+    background:#FDA8CF;;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+     box-shadow: 5px 40px -10px rgba(0,0,0,1);
+     transition: all 0.4s ease 0s;
+  }
